@@ -1,5 +1,8 @@
 # RainMuk_open 雨木机器人开源部分
 
+#### 注意
+本代码即将重新整理开源，源码将添加部分功能
+
 #### 介绍
 使用Python NoneBot2编写，QQ协议端使用go-cqhttp
 
