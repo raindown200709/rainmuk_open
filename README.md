@@ -33,3 +33,6 @@ pip install nonebot2[cli]
 6.翻译
 
 7.测试发送
+
+#### 感谢人员
+感谢NoneBot的编写者和对我指导的人员：[低调](https://github.com/yanyongyu)、[lz1998](https://github.com/lz1998)
