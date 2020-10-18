@@ -1,7 +1,7 @@
 # RainMuk_open 雨木机器人开源部分
 
-#### 注意
-本代码即将重新整理开源，源码将添加部分功能
+#### LICENSE许可
+[MIT](https://gitee.com/raindown/rainmuk_open/blob/master/LICENSE)
 
 #### 介绍
 使用Python NoneBot2编写，QQ协议端使用go-cqhttp
@@ -18,7 +18,7 @@ pip install nonebot2[cli]
 
 #### 开源部分
 
-机器人完整插件：
+机器人开源部分：
 
 1.打乱
 
@@ -33,15 +33,3 @@ pip install nonebot2[cli]
 6.翻译
 
 7.测试发送
-
-开源部分：
-
-1.快递
-
-2.IP
-
-3.天气
-
-4.翻译
-
-5.测试发送
