@@ -1,7 +1,7 @@
 # RainMuk_open 雨木机器人开源部分
 
 #### 即将更新
-因本人失踪多年，至今回归，将于12月5日晚22：00更新新的代码
+将于12月5日晚22：00更新新的代码
 
 #### LICENSE许可
 [MIT](https://gitee.com/raindown/rainmuk_open/blob/master/LICENSE)
@@ -36,6 +36,9 @@ pip install nonebot2[cli]
 6.翻译
 
 7.测试发送
+
+#### 附录
+更新控制台：[https://gitee.com/raindown/rainmuk_open/tree/control](https://gitee.com/raindown/rainmuk_open/tree/control)
 
 #### 感谢人员
 感谢NoneBot的编写者和对我指导的人员：[低调](https://github.com/yanyongyu)、[lz1998](https://github.com/lz1998)
