@@ -1,8 +1,5 @@
 # RainMuk_open 雨木机器人开源部分
 
-#### 注意
-因上传问题，一个小时只能上传一个，所以剩下明天上传
-
 #### LICENSE许可
 [MIT](https://gitee.com/raindown/rainmuk_open/blob/master/LICENSE)
 
