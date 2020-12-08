@@ -14,25 +14,23 @@
 pip install nonebot2[cli]
 ```
 
+为防止方便，在代码添加了<kbd>bot.bat</kbd>和<kbd>bot.sh</kbd>，可以直接打开这两个运行
 运行用nb run来打开，同时需要配置好QQ协议端[go-cqhttp](https://github.com/Mrs4s/go-cqhttp/releases/tag/v0.9.28)
 
 #### 开源部分
 
 机器人开源部分：
 
-1.打乱
-
-2.WCA
-
-3.快递
-
-4.IP
-
-5.天气
-
-6.翻译
-
-7.测试发送
+- [x] 内置命令 BulitInPlugin
+- [x] 快递 Express
+- [x] IP地址查询 IPPlugin
+- [x] 打乱 ScramblePlugin
+- [x] 词库学习 StudyPlugin
+- [x] 测试发送信息 TestPlugin
+- [x] 翻译英语单词 TransPlugin
+- [x] WCA成绩查询 WCAPlugin
+- [x] 天气查询 WeatherPlugin
+- []  欢迎插件 WelcomePlugin
 
 #### 附录
 更新控制台：[https://gitee.com/raindown/rainmuk_open/tree/control](https://gitee.com/raindown/rainmuk_open/tree/control)
