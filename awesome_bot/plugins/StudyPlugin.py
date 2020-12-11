@@ -36,7 +36,7 @@ async def handle_first_receive(bot: Bot, event: Event, state: dict):
 @study.got("study", prompt="词库没有内容(@_@)...")
 async def handle_study(bot: Bot, event: Event, state: dict):
     studytext = state["study"]
-    file = open('C:/Users/86139/Desktop/GO-CQHTTPBOT/AweSome-Bot/awesome_bot/plugins/StudySQL/'+str(event.group_id)+'.txt' , 'w')
+    file = open('(empty)'+str(event.group_id)+'.txt' , 'w') # 设置一个存放文件目录，将目录粘贴到(empty)上
     file.write(studytext)
     file.close()
     await bot.send(
@@ -56,7 +56,7 @@ async def handle_first_receive(bot: Bot, event: Event, state: dict):
 @studyask.got("", prompt="没用找到指令...")
 async def handle_studyask(bot: Bot, event: Event, state: dict):
     studyasktext = state[""]
-    file = open('C:/Users/86139/Desktop/GO-CQHTTPBOT/AweSome-Bot/awesome_bot/plugins/StudySQL/'+str(event.group_id)+'.txt' , 'r')
+    file = open('(empty)'+str(event.group_id)+'.txt' , 'r') # 设置一个存放文件目录，将目录粘贴到(empty)上
     studyasksend = file.read()
     file.close()
     studyasksend2 = studyasksend.split('//')
@@ -75,7 +75,7 @@ async def handle_studyask(bot: Bot, event: Event, state: dict):
 studylist = on_command("查看词库", priority=5)
 @studylist.handle()
 async def studylistsend(bot: Bot, event: Event, state: dict):
-    file = open('C:/Users/86139/Desktop/GO-CQHTTPBOT/AweSome-Bot/awesome_bot/plugins/StudySQL/'+str(event.group_id)+'.txt' , 'r')
+    file = open('(empty)'+str(event.group_id)+'.txt' , 'r') # 设置一个存放文件目录，将目录粘贴到(empty)上
     studylistsend = file.read()
     file.close()
     await bot.send(
