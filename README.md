@@ -33,7 +33,7 @@ pip install nonebot2[cli]
 - [x] 翻译英语单词 TransPlugin
 - [x] WCA成绩查询 WCAPlugin
 - [x] 天气查询 WeatherPlugin
-- [ ]  欢迎插件 WelcomePlugin
+- [ ] 欢迎插件 WelcomePlugin
 
 #### 附录
 更新控制台：[https://gitee.com/raindown/rainmuk_open/tree/control](https://gitee.com/raindown/rainmuk_open/tree/control)
